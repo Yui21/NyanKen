@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using StarterAssets;
 
 public class CameraChangeController : MonoBehaviour
 {
@@ -34,7 +35,8 @@ public class CameraChangeController : MonoBehaviour
         catCameraRoot.SetActive(false);
         catEyeCamera.SetActive(false);
         uICanvasFps.SetActive(false);
-        cuCat.GetComponent<FirstPersonController>().SetActive(false);
+        //cuCat.GetComponent<FirstPersonController>().SetActive(false);
+        cuCat.GetComponent<FirstPersonController>().enabled = false;
         
 
         
