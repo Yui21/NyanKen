@@ -12,10 +12,7 @@ public class comicBookController : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            //プレイヤーがゴリラ圏内にいるときの処理
-            //ボタン等を設置したPanelを表示させる。
-            //Panel.SetActive(true);
-            Debug.Log("ヒット！！！！");
+            Debug.Log("漫画の山と衝突！！！！");
             uIComicBookAction.SetActive(true);
 
         }
@@ -24,10 +21,7 @@ public class comicBookController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //プレイヤーがゴリラ圏内から出た時の処理
-            //Panelを非表示にする。
-            //Panel.SetActive(false);
-            Debug.Log("出た！！！！");
+            Debug.Log("漫画の山から離れた！！！！");
             uIComicBookAction.SetActive(false);
         }
     }
