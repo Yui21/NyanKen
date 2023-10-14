@@ -62,6 +62,18 @@ public class WorkRoomAction : MonoBehaviour
                 Debug.Log("押入れと衝突した！！！！");
                 //uIPillowAction.SetActive(true);
             }
+
+            if(gameObject.name == "poster")
+            {
+                Debug.Log("ポスターと衝突した！！！！");
+                //uIPillowAction.SetActive(true);
+            }
+
+            if(gameObject.name == "code")
+            {
+                Debug.Log("コードと衝突した！！！！");
+                //uIPillowAction.SetActive(true);
+            }
             
 
         }
@@ -121,6 +133,18 @@ public class WorkRoomAction : MonoBehaviour
             if(gameObject.name == "oshiire")
             {
                 Debug.Log("押入れから離れた！！！！");
+                //uIPillowAction.SetActive(true);
+            }
+
+            if(gameObject.name == "poster")
+            {
+                Debug.Log("ポスターから離れた！！！！");
+                //uIPillowAction.SetActive(true);
+            }
+
+            if(gameObject.name == "code")
+            {
+                Debug.Log("コードから離れた！！！！");
                 //uIPillowAction.SetActive(true);
             }
         }
