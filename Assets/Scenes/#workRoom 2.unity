@@ -5088,13 +5088,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.16
-  m_Radius: 0.06
+  m_Height: 1
+  m_Radius: 0.28
   m_SlopeLimit: 45
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.08, z: 0}
+  m_Center: {x: 0, y: 0.53, z: 0}
 --- !u!114 &1428806788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5141,13 +5141,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
   - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
   FootstepAudioVolume: 0.3
-  JumpHeight: 2
+  JumpHeight: 3.5
   Gravity: -15
   JumpTimeout: 0.3
   FallTimeout: 0.15
   Grounded: 1
-  GroundedOffset: -0.02
-  GroundedRadius: 0.05
+  GroundedOffset: -0.14
+  GroundedRadius: 0.28
   GroundLayers:
     serializedVersion: 2
     m_Bits: 513
@@ -5240,8 +5240,8 @@ MonoBehaviour:
   JumpTimeout: 0.1
   FallTimeout: 0.15
   Grounded: 1
-  GroundedOffset: -0.02
-  GroundedRadius: 0.05
+  GroundedOffset: -0.14
+  GroundedRadius: 0.5
   GroundLayers:
     serializedVersion: 2
     m_Bits: 513
