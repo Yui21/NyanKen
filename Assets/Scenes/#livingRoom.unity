@@ -13988,8 +13988,8 @@ GameObject:
   - component: {fileID: 8837893570691287311}
   - component: {fileID: 3722954593645280518}
   - component: {fileID: 8837893570691287312}
-  - component: {fileID: 8837893570691287314}
   - component: {fileID: 8837893570691287313}
+  - component: {fileID: 8837893570691287314}
   m_Layer: 0
   m_Name: roomba
   m_TagString: Untagged
@@ -15017,8 +15017,8 @@ GameObject:
   - component: {fileID: 440761440319438072}
   - component: {fileID: 3263118038215459624}
   - component: {fileID: 6329661730211613255}
-  - component: {fileID: 6329661730211613257}
   - component: {fileID: 6329661730211613256}
+  - component: {fileID: 6329661730211613257}
   m_Layer: 0
   m_Name: cardboard
   m_TagString: Untagged
@@ -15062,7 +15062,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6329661730211613254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7b5fb2a6bfc240759ae85757e313eaf, type: 3}
+  m_Script: {fileID: 11500000, guid: 8571bfcf2162e4731a712bd8045fe409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6337933133448450911
@@ -19902,7 +19902,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5544105496531167659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c88f1032528443caadf21d0da7e9d37, type: 3}
+  m_Script: {fileID: 11500000, guid: 8571bfcf2162e4731a712bd8045fe409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &8840340694491878228
