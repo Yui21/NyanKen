@@ -11,6 +11,7 @@ public class LivingRoomAction : MonoBehaviour
     public GameObject uIteddyBearPinkHeadAction;
     public GameObject uIteddyBearBlueHeadAction;
     public GameObject uITVAction;
+    public GameObject uIPianoAction;
     
 
     void OnTriggerStay(Collider other)
@@ -56,6 +57,12 @@ public class LivingRoomAction : MonoBehaviour
             {
                 Debug.Log("TVと衝突した！！！！");
                 uITVAction.SetActive(true);
+            }
+
+            if(gameObject.name == "piano")
+            {
+                Debug.Log("ピアノと衝突した！！！！");
+                uIPianoAction.SetActive(true);
             }
             
 
@@ -103,6 +110,12 @@ public class LivingRoomAction : MonoBehaviour
             {
                 Debug.Log("TVから離れた！！！！");
                 uITVAction.SetActive(false);
+            }
+
+            if(gameObject.name == "piano")
+            {
+                Debug.Log("ピアノから離れた！！！！");
+                uIPianoAction.SetActive(false);
             }
         }
     }
