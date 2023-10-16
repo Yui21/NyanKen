@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class LivingRoomAction : MonoBehaviour
 {
-    //public GameObject uIPillowAction;
+    public GameObject uICardBoardAction;
+    public GameObject uIRoombaAction;
+    public GameObject uIDoorAction;
+    public GameObject uIWaterDishAction;
+    public GameObject uIteddyBearPinkHeadAction;
+    public GameObject uIteddyBearBlueHeadAction;
+    public GameObject uITVAction;
+    
 
     void OnTriggerStay(Collider other)
     {
@@ -14,41 +21,41 @@ public class LivingRoomAction : MonoBehaviour
             if(gameObject.name == "cardboard")
             {
                 Debug.Log("段ボールと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uICardBoardAction.SetActive(true);
             }
 
             if(gameObject.name == "roomba")
             {
                 Debug.Log("ルンバと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uIRoombaAction.SetActive(true);
             }
             if(gameObject.name == "door")
             {
                 Debug.Log("ドアと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uIDoorAction.SetActive(true);
             }
             
             if(gameObject.name == "waterDish")
             {
                 Debug.Log("水入れと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uIWaterDishAction.SetActive(true);
             }
             if(gameObject.name == "teddyBearPinkHead")
             {
                 Debug.Log("ピンクのくまと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uIteddyBearPinkHeadAction.SetActive(true);
             }
             
             if(gameObject.name == "teddyBearBlueHead")
             {
                 Debug.Log("水色のくまと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uIteddyBearBlueHeadAction.SetActive(true);
             }
 
             if(gameObject.name == "TV")
             {
                 Debug.Log("TVと衝突した！！！！");
-                //uIPillowAction.SetActive(true);
+                uITVAction.SetActive(true);
             }
             
 
@@ -61,41 +68,41 @@ public class LivingRoomAction : MonoBehaviour
             if(gameObject.name == "cardboard")
             {
                 Debug.Log("段ボールから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uICardBoardAction.SetActive(false);
             }
 
             if(gameObject.name == "roomba")
             {
                 Debug.Log("ルンバから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uIRoombaAction.SetActive(false);
             }
             if(gameObject.name == "door")
             {
                 Debug.Log("ドアから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uIDoorAction.SetActive(false);
             }
             
             if(gameObject.name == "waterDish")
             {
                 Debug.Log("水入れから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uIWaterDishAction.SetActive(false);
             }
             if(gameObject.name == "teddyBearPinkHead")
             {
                 Debug.Log("ピンクのくまから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uIteddyBearPinkHeadAction.SetActive(false);
             }
             
             if(gameObject.name == "teddyBearBlueHead")
             {
                 Debug.Log("水色のくまから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uIteddyBearBlueHeadAction.SetActive(false);
             }
 
             if(gameObject.name == "TV")
             {
                 Debug.Log("TVから離れた！！！！");
-                //uIPillowAction.SetActive(true);
+                uITVAction.SetActive(false);
             }
         }
     }
