@@ -18,4 +18,12 @@ public class AnimationButtonController : MonoBehaviour
 
         //鳴き声の音声が再生される
     }
+
+    public void Sleep()
+    {
+        //寝るアニメーションスタート
+        cuCatAnim.SetTrigger("isSleep");
+
+        
+    }
 }
