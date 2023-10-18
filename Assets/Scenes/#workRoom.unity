@@ -1124,7 +1124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 137952394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6692833733744442000}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &137952394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2117,6 +2129,7 @@ GameObject:
   - component: {fileID: 392516713}
   - component: {fileID: 392516712}
   - component: {fileID: 392516711}
+  - component: {fileID: 392516715}
   m_Layer: 0
   m_Name: poster
   m_TagString: Untagged
@@ -2239,6 +2252,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392516708}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &392516715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392516708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 31765918}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!65 &394730709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2637,7 +2673,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 479879640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7529298928472629592}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &479879640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4343,7 +4391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 726657315}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6246084057743898741}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &726657315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6322,7 +6382,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 907438429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8272926086851831580}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &907438429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8792,7 +8864,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1419870301}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6829825617826211707}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1419870301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9828,7 +9912,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1478142642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7649046174423756710}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1478142642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10406,7 +10502,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1569191271}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8059955248987276187}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1569191271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10887,7 +10995,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1663008109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8546396728662764049}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1663008109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11165,7 +11285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1708706657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 392516715}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1708706657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13500,7 +13632,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2028191230}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8081619038835182555}
+        m_TargetAssemblyTypeName: ActionClickedController, Assembly-CSharp
+        m_MethodName: ActionClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2028191230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19484,6 +19628,7 @@ GameObject:
   - component: {fileID: 8272926086851831577}
   - component: {fileID: 8272926086851831576}
   - component: {fileID: 8272926086851831579}
+  - component: {fileID: 8272926086851831580}
   m_Layer: 0
   m_Name: oshiire
   m_TagString: Untagged
@@ -22635,6 +22780,7 @@ GameObject:
   - component: {fileID: 8081619038835182551}
   - component: {fileID: 8081619038835182553}
   - component: {fileID: 8081619038835182554}
+  - component: {fileID: 8081619038835182555}
   m_Layer: 0
   m_Name: cup
   m_TagString: Untagged
@@ -29305,6 +29451,7 @@ GameObject:
   - component: {fileID: 1715321644}
   - component: {fileID: 6246084057743898739}
   - component: {fileID: 6246084057743898740}
+  - component: {fileID: 6246084057743898741}
   m_Layer: 0
   m_Name: code
   m_TagString: Untagged
@@ -29348,6 +29495,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007, y: 0.004031771, z: 0.009}
   m_Center: {x: -0.015, y: 0.00090160983, z: 0.013719905}
+--- !u!114 &6246084057743898741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6246084057743898737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 563924620}
 --- !u!4 &6253423168178943047
 Transform:
   m_ObjectHideFlags: 0
@@ -29551,6 +29721,7 @@ GameObject:
   - component: {fileID: 1457966177}
   - component: {fileID: 7529298928472629590}
   - component: {fileID: 7529298928472629591}
+  - component: {fileID: 7529298928472629592}
   m_Layer: 0
   m_Name: pillow
   m_TagString: Untagged
@@ -30439,12 +30610,13 @@ MonoBehaviour:
   garbageCanClear: {fileID: 1576366305}
   pcClear: {fileID: 0}
   pillowClear: {fileID: 0}
-  OshiireClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
   comicBookClear: {fileID: 0}
   shelfClear: {fileID: 0}
-  posterCanClear: {fileID: 0}
+  posterClear: {fileID: 0}
   chairClear: {fileID: 0}
-  cupCanClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!23 &6612184466563258951
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30694,6 +30866,7 @@ GameObject:
   - component: {fileID: 1464937436}
   - component: {fileID: 6692833733744441998}
   - component: {fileID: 6692833733744441999}
+  - component: {fileID: 6692833733744442000}
   m_Layer: 0
   m_Name: PC
   m_TagString: Untagged
@@ -30737,6 +30910,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &6692833733744442000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692833733744441996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 485528072}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!33 &6699937223968356915
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31040,6 +31236,7 @@ GameObject:
   - component: {fileID: 1961337009}
   - component: {fileID: 6829825617826211705}
   - component: {fileID: 6829825617826211706}
+  - component: {fileID: 6829825617826211707}
   m_Layer: 0
   m_Name: airCon_Con
   m_TagString: Untagged
@@ -31083,6 +31280,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &6829825617826211707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829825617826211704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 816446637}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!4 &6864576487449985362
 Transform:
   m_ObjectHideFlags: 0
@@ -31661,6 +31881,7 @@ GameObject:
   - component: {fileID: 1247792571}
   - component: {fileID: 7649046174423756708}
   - component: {fileID: 7649046174423756709}
+  - component: {fileID: 7649046174423756710}
   m_Layer: 0
   m_Name: backRest
   m_TagString: Untagged
@@ -32634,6 +32855,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &7529298928472629592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6398519453147282155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 1120755958}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!33 &7538567796763264079
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -33097,6 +33341,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &7649046174423756710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124384989023256469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 1896383657}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!4 &7649501089041786913
 Transform:
   m_ObjectHideFlags: 0
@@ -33997,6 +34264,7 @@ GameObject:
   - component: {fileID: 898592337}
   - component: {fileID: 898592342}
   - component: {fileID: 8059955248987276186}
+  - component: {fileID: 8059955248987276187}
   m_Layer: 0
   m_Name: shelf
   m_TagString: Untagged
@@ -34027,6 +34295,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &8059955248987276187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059955248987276185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 6004200}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!1 &8069171666517200503
 GameObject:
   m_ObjectHideFlags: 0
@@ -34124,6 +34415,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &8081619038835182555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561886894970453185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 1189020237}
+  codeClear: {fileID: 0}
 --- !u!23 &8100624347574276213
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34578,6 +34892,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 907438420}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &8272926086851831580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2234751510756070565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 1540028327}
+  comicBookClear: {fileID: 0}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!33 &8278626258214235192
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -35254,6 +35591,7 @@ GameObject:
   - component: {fileID: 1277535509}
   - component: {fileID: 1277535513}
   - component: {fileID: 8546396728662764048}
+  - component: {fileID: 8546396728662764049}
   m_Layer: 0
   m_Name: comicBook
   m_TagString: Untagged
@@ -35284,6 +35622,29 @@ MonoBehaviour:
   uIOshiireAction: {fileID: 0}
   uIPosterAction: {fileID: 0}
   uICodeAction: {fileID: 0}
+--- !u!114 &8546396728662764049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8546396728662764047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7db9b93933648e080a59d86bccb438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airConClear: {fileID: 0}
+  garbageCanClear: {fileID: 0}
+  pcClear: {fileID: 0}
+  pillowClear: {fileID: 0}
+  oshiireClear: {fileID: 0}
+  comicBookClear: {fileID: 805883105}
+  shelfClear: {fileID: 0}
+  posterClear: {fileID: 0}
+  chairClear: {fileID: 0}
+  cupClear: {fileID: 0}
+  codeClear: {fileID: 0}
 --- !u!23 &8550107138472331754
 MeshRenderer:
   m_ObjectHideFlags: 0
