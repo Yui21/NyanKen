@@ -5,6 +5,8 @@ using UnityEngine;
 public class ActionClickedController : MonoBehaviour
 {
     //アクションボタンがクリックされた時の処理をここに記入
+
+    //#workRoom
     public GameObject airConClear;
     public GameObject garbageCanClear;
     public GameObject pcClear;
@@ -17,9 +19,21 @@ public class ActionClickedController : MonoBehaviour
     public GameObject cupClear;
     public GameObject codeClear;
 
+    //#livingRoom
+    public GameObject cardBoardClear;
+    public GameObject doorClear;
+    public GameObject waterDishClear;
+    public GameObject tVClear;
+    public GameObject pianoClear;
+    public GameObject roombaClear;
+    public GameObject teddyBearPinkClear;
+    public GameObject teddyBearBlueClear;
+
+
 
     public void ActionClicked()
     {
+        
             if(gameObject.name == "airCon_Con")
             {
                 Debug.Log("エアコンリモコンのアクション！！！！");
@@ -184,7 +198,130 @@ public class ActionClickedController : MonoBehaviour
 
                 //ゴミ箱のアクションボタンも消す
             }
+
+
+            //#livingRoom
+            if(gameObject.name == "cardBoard")
+            {
+                Debug.Log("段ボールのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(cardBoardClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "door")
+            {
+                Debug.Log("ドアのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(doorClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "waterDish")
+            {
+                Debug.Log("水入れのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(waterDishClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "TV")
+            {
+                Debug.Log("テレビのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(tVClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "piano")
+            {
+                Debug.Log("ピアノのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(pianoClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "roomba")
+            {
+                Debug.Log("ルンバのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(roombaClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "teddyBearPinkHead")
+            {
+                Debug.Log("ピンクくまのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(teddyBearPinkClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
+
+            if(gameObject.name == "teddyBearBlueHead")
+            {
+                Debug.Log("水色くまのアクション！！！！");
+
+                //2秒くらいだけ表示させたい
+                //garbageCanClear.SetActive(true);
+                //本当はこのテロップにアニメーションつけるから子ルーチンは使わないかも？
+                StartCoroutine(ShowImageSecond(teddyBearBlueClear, 2f)); // maruを表示させ、２秒後に非表示
+
+                //仮でオブジェクトを消す
+                //this.gameObject.SetActive (false);
+
+                //ゴミ箱のアクションボタンも消す
+            }
     }
+
 
     // 引数で当たられたオブジェクトを表示し、引数の秒数後に非表示にするコルーチン
     IEnumerator ShowImageSecond(GameObject targetObj, float sec) 

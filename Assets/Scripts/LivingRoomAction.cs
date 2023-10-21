@@ -19,7 +19,7 @@ public class LivingRoomAction : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            if(gameObject.name == "cardboard")
+            if(gameObject.name == "cardBoard")
             {
                 Debug.Log("段ボールと衝突した！！！！");
                 uICardBoardAction.SetActive(true);
