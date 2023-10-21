@@ -15,6 +15,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("#card");
     }
 
+    public void toStageSelect()
+    {
+        SceneManager.LoadScene("#stageSelect");
+    }
+
     public void toWorkRoom()
     {
         SceneManager.LoadScene("#workRoom");
