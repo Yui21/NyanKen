@@ -21,14 +21,16 @@ public class CountDownTimer : MonoBehaviour
     //クリアパネル
     public GameObject clearPanel;
  
-	void Start () 
+	void Start() 
     {
 		totalTime = minute * 60 + seconds;
 		oldSeconds = 0f;
 		timerText = GetComponentInChildren<Text>();
 	}
  
-	void Update () 
+	
+
+    void Update() 
     {
 		//　制限時間が0秒以下なら何もしない
 		if (totalTime <= 0f) 
