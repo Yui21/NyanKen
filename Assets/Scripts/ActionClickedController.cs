@@ -29,7 +29,11 @@ public class ActionClickedController : MonoBehaviour
     public GameObject teddyBearPinkClear;
     public GameObject teddyBearBlueClear;
 
+    //アニメーション関係
+    public Animator cuCatAnim;
 
+    //アクションボタン関係
+    public GameObject uIPillowAction;
 
     public void ActionClicked()
     {
@@ -91,7 +95,16 @@ public class ActionClickedController : MonoBehaviour
                 //仮でオブジェクトを消す
                 //this.gameObject.SetActive (false);
 
-                //ゴミ箱のアクションボタンも消す
+                //C_messageのアニメーションを再生
+                cuCatAnim.SetTrigger("isPillow");
+
+                //すりすりのボタンを非アクティブに
+                //オブジェクトの近くにいる限り、「すりすり」ボタンは表示され続けちゃうから
+                //すりすりボタンの上に親オブジェクト作ってそれを非表示にしてる。
+                //不都合が出るようなら考え直す
+                uIPillowAction.SetActive(false);
+
+
             }
 
             if(gameObject.name == "oshiire")

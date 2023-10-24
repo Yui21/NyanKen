@@ -8,6 +8,8 @@ public class AnimationButtonController : MonoBehaviour
     public AudioClip cat_cry;
     AudioSource audioSource;
 
+    //public GameObject
+
     void Start()
     {
         //Componentを取得
@@ -26,16 +28,12 @@ public class AnimationButtonController : MonoBehaviour
     public void Sleep()
     {
         //寝るアニメーションスタート
-        cuCatAnim.SetTrigger("isSleep");
-
-        
+        cuCatAnim.SetTrigger("isSleep");        
     }
 
     public void GetUp()
     {
         //起きるアニメーションスタート
-        cuCatAnim.SetTrigger("isGetUp");
-
-        
+        cuCatAnim.SetTrigger("isGetUp");        
     }
 }
