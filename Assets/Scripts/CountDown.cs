@@ -10,6 +10,8 @@ public class CountDown : MonoBehaviour
 
     //2分タイマーに関係するオブジェクト
     public GameObject timer;
+
+	public BtnIntController btnIntController;
  
 	
  
@@ -49,5 +51,8 @@ public class CountDown : MonoBehaviour
     {
         //2分のタイマーに関係するものをアクティブにしてタイマーを開始させる
         timer.SetActive(true);
+
+		//ButnIntController.csのBtnIntTrue()関数を呼び出してボタンを押せるようにする
+		btnIntController.BtnIntTrue();
     }
 }
