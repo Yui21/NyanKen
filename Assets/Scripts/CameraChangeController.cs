@@ -91,7 +91,7 @@ public class CameraChangeController : MonoBehaviour
         cuCat.GetComponent<FirstPersonController>().enabled = true;
 
         //テストで試した。これは実行できた
-        cuCat.GetComponent<Test>().enabled = true;
+        //cuCat.GetComponent<Test>().enabled = true;
         
 
         playerCameraRoot.SetActive(false);
