@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public void toTitle()
+    {
+        SceneManager.LoadScene("#title");
+    }
+
     public void toHome()
     {
         SceneManager.LoadScene("#home");
