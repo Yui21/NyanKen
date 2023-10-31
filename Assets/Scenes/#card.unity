@@ -337,7 +337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 490441f9178314a5d93351ee15e1cdb8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 834c5c950aa514f428edc48f37c4d5ed, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -446,7 +446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &37121649
 RectTransform:
   m_ObjectHideFlags: 0
@@ -480,6 +480,7 @@ GameObject:
   - component: {fileID: 50390760}
   - component: {fileID: 50390762}
   - component: {fileID: 50390761}
+  - component: {fileID: 50390763}
   m_Layer: 5
   m_Name: Card22
   m_TagString: Untagged
@@ -545,6 +546,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50390759}
   m_CullTransparentMesh: 1
+--- !u!114 &50390763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50390759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1489988373}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &74106258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,10 +1317,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1323,6 +1353,7 @@ GameObject:
   - component: {fileID: 220040745}
   - component: {fileID: 220040747}
   - component: {fileID: 220040746}
+  - component: {fileID: 220040748}
   m_Layer: 5
   m_Name: Card12
   m_TagString: Untagged
@@ -1388,6 +1419,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220040744}
   m_CullTransparentMesh: 1
+--- !u!114 &220040748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220040744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 847604969}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &225776789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1767,7 @@ GameObject:
   - component: {fileID: 263800417}
   - component: {fileID: 263800419}
   - component: {fileID: 263800418}
+  - component: {fileID: 263800420}
   m_Layer: 5
   m_Name: Card08
   m_TagString: Untagged
@@ -1772,6 +1833,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263800416}
   m_CullTransparentMesh: 1
+--- !u!114 &263800420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263800416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 422224387}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &266140812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +1877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &266140813
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1821,6 +1911,7 @@ GameObject:
   - component: {fileID: 276097552}
   - component: {fileID: 276097554}
   - component: {fileID: 276097553}
+  - component: {fileID: 276097555}
   m_Layer: 5
   m_Name: Card14
   m_TagString: Untagged
@@ -1886,6 +1977,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276097551}
   m_CullTransparentMesh: 1
+--- !u!114 &276097555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276097551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 749511061}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &285615164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,7 +2258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &315536430
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2326,6 +2446,7 @@ GameObject:
   - component: {fileID: 322985067}
   - component: {fileID: 322985069}
   - component: {fileID: 322985068}
+  - component: {fileID: 322985070}
   m_Layer: 5
   m_Name: Card28
   m_TagString: Untagged
@@ -2391,6 +2512,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322985066}
   m_CullTransparentMesh: 1
+--- !u!114 &322985070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322985066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1071559039}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &329670548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,7 +2676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &355965780
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2610,7 +2760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &367699474
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2800,6 +2950,7 @@ GameObject:
   - component: {fileID: 392494263}
   - component: {fileID: 392494265}
   - component: {fileID: 392494264}
+  - component: {fileID: 392494266}
   m_Layer: 5
   m_Name: Card23
   m_TagString: Untagged
@@ -2865,6 +3016,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392494262}
   m_CullTransparentMesh: 1
+--- !u!114 &392494266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392494262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 266140812}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &394135987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,7 +3103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 831030be20b6048fb841264dd4a37d1a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2999,7 +3179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b7f225ece757340878aceceaab54485e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3100,7 +3280,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 419100115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1787453722}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: CloseDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &419100115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3154,7 +3346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &422224388
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3317,7 +3509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &459402705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3436,7 +3628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &476340031
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3798,6 +3990,7 @@ GameObject:
   - component: {fileID: 532584966}
   - component: {fileID: 532584968}
   - component: {fileID: 532584967}
+  - component: {fileID: 532584969}
   m_Layer: 5
   m_Name: Card10
   m_TagString: Untagged
@@ -3863,6 +4056,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532584965}
   m_CullTransparentMesh: 1
+--- !u!114 &532584969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532584965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 476340030}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &536964667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,7 +4100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &536964668
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4119,7 +4341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 16a96afed60e4451a8520e445d86703c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4305,6 +4527,7 @@ GameObject:
   - component: {fileID: 575556500}
   - component: {fileID: 575556502}
   - component: {fileID: 575556501}
+  - component: {fileID: 575556503}
   m_Layer: 5
   m_Name: Card24
   m_TagString: Untagged
@@ -4370,6 +4593,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575556499}
   m_CullTransparentMesh: 1
+--- !u!114 &575556503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575556499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1856349595}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &615206004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4381,6 +4633,7 @@ GameObject:
   - component: {fileID: 615206005}
   - component: {fileID: 615206007}
   - component: {fileID: 615206006}
+  - component: {fileID: 615206008}
   m_Layer: 5
   m_Name: Card33
   m_TagString: Untagged
@@ -4446,6 +4699,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615206004}
   m_CullTransparentMesh: 1
+--- !u!114 &615206008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615206004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1107359524}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &617614665
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,7 +4743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &617614666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4495,6 +4777,7 @@ GameObject:
   - component: {fileID: 622637632}
   - component: {fileID: 622637634}
   - component: {fileID: 622637633}
+  - component: {fileID: 622637635}
   m_Layer: 5
   m_Name: Card06
   m_TagString: Untagged
@@ -4560,6 +4843,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622637631}
   m_CullTransparentMesh: 1
+--- !u!114 &622637635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622637631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1460666952}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &623934090
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,7 +4963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &630284405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4762,6 +5074,7 @@ GameObject:
   - component: {fileID: 643197241}
   - component: {fileID: 643197243}
   - component: {fileID: 643197242}
+  - component: {fileID: 643197244}
   m_Layer: 5
   m_Name: Card29
   m_TagString: Untagged
@@ -4827,6 +5140,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643197240}
   m_CullTransparentMesh: 1
+--- !u!114 &643197244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643197240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1849465214}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &644931581
 GameObject:
   m_ObjectHideFlags: 0
@@ -4915,6 +5257,7 @@ GameObject:
   - component: {fileID: 653676742}
   - component: {fileID: 653676744}
   - component: {fileID: 653676743}
+  - component: {fileID: 653676745}
   m_Layer: 5
   m_Name: Card26
   m_TagString: Untagged
@@ -4980,6 +5323,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653676741}
   m_CullTransparentMesh: 1
+--- !u!114 &653676745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653676741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1341809265}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &667374104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5075,7 +5447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &670147620
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5315,6 +5687,7 @@ GameObject:
   - component: {fileID: 682441102}
   - component: {fileID: 682441104}
   - component: {fileID: 682441103}
+  - component: {fileID: 682441105}
   m_Layer: 5
   m_Name: Card11
   m_TagString: Untagged
@@ -5380,6 +5753,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682441101}
   m_CullTransparentMesh: 1
+--- !u!114 &682441105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682441101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1963109019}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &694480902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5391,6 +5793,7 @@ GameObject:
   - component: {fileID: 694480903}
   - component: {fileID: 694480905}
   - component: {fileID: 694480904}
+  - component: {fileID: 694480906}
   m_Layer: 5
   m_Name: Card04
   m_TagString: Untagged
@@ -5456,6 +5859,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694480902}
   m_CullTransparentMesh: 1
+--- !u!114 &694480906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694480902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2083987082}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &701790410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,6 +5899,7 @@ GameObject:
   - component: {fileID: 701790411}
   - component: {fileID: 701790413}
   - component: {fileID: 701790412}
+  - component: {fileID: 701790414}
   m_Layer: 5
   m_Name: Card19
   m_TagString: Untagged
@@ -5532,6 +5965,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701790410}
   m_CullTransparentMesh: 1
+--- !u!114 &701790414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701790410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1558627570}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &703020576
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,7 +6086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &732445241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5662,7 +6124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &749511062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5696,6 +6158,7 @@ GameObject:
   - component: {fileID: 750938447}
   - component: {fileID: 750938449}
   - component: {fileID: 750938448}
+  - component: {fileID: 750938450}
   m_Layer: 5
   m_Name: Card03
   m_TagString: Untagged
@@ -5761,6 +6224,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750938446}
   m_CullTransparentMesh: 1
+--- !u!114 &750938450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750938446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 355965779}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &774463459
 GameObject:
   m_ObjectHideFlags: 0
@@ -5987,6 +6479,7 @@ GameObject:
   - component: {fileID: 791892507}
   - component: {fileID: 791892509}
   - component: {fileID: 791892508}
+  - component: {fileID: 791892510}
   m_Layer: 5
   m_Name: Card32
   m_TagString: Untagged
@@ -6052,6 +6545,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791892506}
   m_CullTransparentMesh: 1
+--- !u!114 &791892510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791892506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 536964667}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &792213719
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,7 +6669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0fdddf4a0e8974c85a3cdb932c881ea1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6257,7 +6779,7 @@ GameObject:
   - component: {fileID: 810181398}
   - component: {fileID: 810181397}
   m_Layer: 5
-  m_Name: CardDetailPanel
+  m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6270,8 +6792,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810181395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.9858398}
   m_LocalScale: {x: 0.7133303, y: 0.7363508, z: 0.92045}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6316,13 +6838,13 @@ RectTransform:
   - {fileID: 367699474}
   - {fileID: 1822615444}
   - {fileID: 1498982683}
-  m_Father: {fileID: 2125812919}
-  m_RootOrder: 5
+  m_Father: {fileID: 1787453721}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -20}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -195.6781, y: -72.62338}
+  m_SizeDelta: {x: 881, y: 434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &810181397
 MonoBehaviour:
@@ -6487,7 +7009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &847604970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6568,7 +7090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c1eee34cdc30b475fbb1e4655ddc1d48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6597,6 +7119,7 @@ GameObject:
   - component: {fileID: 872215179}
   - component: {fileID: 872215181}
   - component: {fileID: 872215180}
+  - component: {fileID: 872215182}
   m_Layer: 5
   m_Name: Card25
   m_TagString: Untagged
@@ -6662,6 +7185,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872215178}
   m_CullTransparentMesh: 1
+--- !u!114 &872215182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872215178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1386438918}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &882982549
 GameObject:
   m_ObjectHideFlags: 0
@@ -6877,7 +7429,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5bf7e4c608fbe4c9da6a19eaf35976a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7260,6 +7812,7 @@ GameObject:
   - component: {fileID: 949646510}
   - component: {fileID: 949646512}
   - component: {fileID: 949646511}
+  - component: {fileID: 949646513}
   m_Layer: 5
   m_Name: Card01
   m_TagString: Untagged
@@ -7325,6 +7878,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949646509}
   m_CullTransparentMesh: 1
+--- !u!114 &949646513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949646509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 732445240}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &961693694
 GameObject:
   m_ObjectHideFlags: 0
@@ -7336,6 +7918,7 @@ GameObject:
   - component: {fileID: 961693695}
   - component: {fileID: 961693697}
   - component: {fileID: 961693696}
+  - component: {fileID: 961693698}
   m_Layer: 5
   m_Name: Card20
   m_TagString: Untagged
@@ -7401,6 +7984,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961693694}
   m_CullTransparentMesh: 1
+--- !u!114 &961693698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961693694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 315536429}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &977972155
 GameObject:
   m_ObjectHideFlags: 0
@@ -7645,6 +8257,7 @@ GameObject:
   - component: {fileID: 1000445905}
   - component: {fileID: 1000445907}
   - component: {fileID: 1000445906}
+  - component: {fileID: 1000445908}
   m_Layer: 5
   m_Name: Card38
   m_TagString: Untagged
@@ -7710,6 +8323,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000445904}
   m_CullTransparentMesh: 1
+--- !u!114 &1000445908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000445904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 367699473}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1008763363
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,7 +8443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1024639686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7835,6 +8477,7 @@ GameObject:
   - component: {fileID: 1034782852}
   - component: {fileID: 1034782854}
   - component: {fileID: 1034782853}
+  - component: {fileID: 1034782855}
   m_Layer: 5
   m_Name: Card18
   m_TagString: Untagged
@@ -7900,6 +8543,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034782851}
   m_CullTransparentMesh: 1
+--- !u!114 &1034782855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034782851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 630284404}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1056130440
 GameObject:
   m_ObjectHideFlags: 0
@@ -7958,7 +8630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4b6d94df2943741d99cffb119adde25e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8067,7 +8739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1071559040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8177,6 +8849,7 @@ GameObject:
   - component: {fileID: 1095539510}
   - component: {fileID: 1095539512}
   - component: {fileID: 1095539511}
+  - component: {fileID: 1095539513}
   m_Layer: 5
   m_Name: Card15
   m_TagString: Untagged
@@ -8242,6 +8915,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095539509}
   m_CullTransparentMesh: 1
+--- !u!114 &1095539513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095539509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1124264600}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1107359524
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,7 +8959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1107359525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8295,7 +8997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1124264601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8758,7 +9460,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224247208}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -8893,7 +9595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1236468647
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8927,6 +9629,7 @@ GameObject:
   - component: {fileID: 1241530692}
   - component: {fileID: 1241530694}
   - component: {fileID: 1241530693}
+  - component: {fileID: 1241530695}
   m_Layer: 5
   m_Name: Card35
   m_TagString: Untagged
@@ -8992,6 +9695,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241530691}
   m_CullTransparentMesh: 1
+--- !u!114 &1241530695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1400569916}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1272232109
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,6 +9735,7 @@ GameObject:
   - component: {fileID: 1272232110}
   - component: {fileID: 1272232112}
   - component: {fileID: 1272232111}
+  - component: {fileID: 1272232113}
   m_Layer: 5
   m_Name: Card16
   m_TagString: Untagged
@@ -9068,6 +9801,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272232109}
   m_CullTransparentMesh: 1
+--- !u!114 &1272232113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272232109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 670147619}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1275916760
 GameObject:
   m_ObjectHideFlags: 0
@@ -9815,6 +10577,7 @@ GameObject:
   - component: {fileID: 1310291788}
   - component: {fileID: 1310291790}
   - component: {fileID: 1310291789}
+  - component: {fileID: 1310291791}
   m_Layer: 5
   m_Name: Card07
   m_TagString: Untagged
@@ -9880,6 +10643,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310291787}
   m_CullTransparentMesh: 1
+--- !u!114 &1310291791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310291787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1590483848}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1311655460
 GameObject:
   m_ObjectHideFlags: 0
@@ -10132,7 +10924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1341809266
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10406,7 +11198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1386438919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10444,7 +11236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1400569917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10554,6 +11346,7 @@ GameObject:
   - component: {fileID: 1406927993}
   - component: {fileID: 1406927995}
   - component: {fileID: 1406927994}
+  - component: {fileID: 1406927996}
   m_Layer: 5
   m_Name: Card40
   m_TagString: Untagged
@@ -10619,6 +11412,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406927992}
   m_CullTransparentMesh: 1
+--- !u!114 &1406927996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406927992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1498982682}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1426647670
 GameObject:
   m_ObjectHideFlags: 0
@@ -10677,7 +11499,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1b50cd477eb8b4a5f912d0ded3364fd6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10790,7 +11612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1441555877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10828,7 +11650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1460666953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10908,6 +11730,7 @@ GameObject:
   - component: {fileID: 1463565488}
   - component: {fileID: 1463565490}
   - component: {fileID: 1463565489}
+  - component: {fileID: 1463565491}
   m_Layer: 5
   m_Name: Card21
   m_TagString: Untagged
@@ -10973,6 +11796,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463565487}
   m_CullTransparentMesh: 1
+--- !u!114 &1463565491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463565487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2071915788}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1471781711
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,6 +12123,7 @@ GameObject:
   - component: {fileID: 1482704557}
   - component: {fileID: 1482704559}
   - component: {fileID: 1482704558}
+  - component: {fileID: 1482704560}
   m_Layer: 5
   m_Name: Card30
   m_TagString: Untagged
@@ -11336,6 +12189,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482704556}
   m_CullTransparentMesh: 1
+--- !u!114 &1482704560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482704556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2081848034}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1485846860
 GameObject:
   m_ObjectHideFlags: 0
@@ -11347,6 +12229,7 @@ GameObject:
   - component: {fileID: 1485846861}
   - component: {fileID: 1485846863}
   - component: {fileID: 1485846862}
+  - component: {fileID: 1485846864}
   m_Layer: 5
   m_Name: Card37
   m_TagString: Untagged
@@ -11412,6 +12295,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485846860}
   m_CullTransparentMesh: 1
+--- !u!114 &1485846864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485846860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 617614665}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1489988373
 GameObject:
   m_ObjectHideFlags: 0
@@ -11427,7 +12339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1489988374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11465,7 +12377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1498982683
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11778,7 +12690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c7162a834531441239f7fd5f079c52a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11811,7 +12723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1558627571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11926,7 +12838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1590483849
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12037,6 +12949,7 @@ GameObject:
   - component: {fileID: 1620213495}
   - component: {fileID: 1620213497}
   - component: {fileID: 1620213496}
+  - component: {fileID: 1620213498}
   m_Layer: 5
   m_Name: Card17
   m_TagString: Untagged
@@ -12102,6 +13015,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620213494}
   m_CullTransparentMesh: 1
+--- !u!114 &1620213498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620213494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1441555876}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1642807543
 GameObject:
   m_ObjectHideFlags: 0
@@ -12375,6 +13317,7 @@ GameObject:
   - component: {fileID: 1667388218}
   - component: {fileID: 1667388220}
   - component: {fileID: 1667388219}
+  - component: {fileID: 1667388221}
   m_Layer: 5
   m_Name: Card13
   m_TagString: Untagged
@@ -12440,6 +13383,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667388217}
   m_CullTransparentMesh: 1
+--- !u!114 &1667388221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667388217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1732311703}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1668099567
 GameObject:
   m_ObjectHideFlags: 0
@@ -12568,7 +13540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1679049403
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13000,7 +13972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1732311704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13034,6 +14006,7 @@ GameObject:
   - component: {fileID: 1735460071}
   - component: {fileID: 1735460073}
   - component: {fileID: 1735460072}
+  - component: {fileID: 1735460074}
   m_Layer: 5
   m_Name: Card31
   m_TagString: Untagged
@@ -13099,6 +14072,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735460070}
   m_CullTransparentMesh: 1
+--- !u!114 &1735460074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735460070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1024639685}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1758659620
 GameObject:
   m_ObjectHideFlags: 0
@@ -13332,6 +14334,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782505030}
   m_CullTransparentMesh: 1
+--- !u!1 &1787453720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787453721}
+  - component: {fileID: 1787453722}
+  m_Layer: 0
+  m_Name: CardDetail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1787453721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787453720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 195.6781, y: 52.623383, z: -1.9858398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 810181396}
+  m_Father: {fileID: 2125812919}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787453722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787453720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf1c825d63c940969eb601720078f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialog: {fileID: 1787453720}
 --- !u!1 &1788917458
 GameObject:
   m_ObjectHideFlags: 0
@@ -13347,7 +14395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1788917459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13592,6 +14640,7 @@ GameObject:
   - component: {fileID: 1801193955}
   - component: {fileID: 1801193957}
   - component: {fileID: 1801193956}
+  - component: {fileID: 1801193958}
   m_Layer: 5
   m_Name: Card36
   m_TagString: Untagged
@@ -13657,6 +14706,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801193954}
   m_CullTransparentMesh: 1
+--- !u!114 &1801193958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801193954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1814769095}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1812970403
 GameObject:
   m_ObjectHideFlags: 0
@@ -13668,6 +14746,7 @@ GameObject:
   - component: {fileID: 1812970404}
   - component: {fileID: 1812970406}
   - component: {fileID: 1812970405}
+  - component: {fileID: 1812970407}
   m_Layer: 5
   m_Name: Card02
   m_TagString: Untagged
@@ -13733,6 +14812,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812970403}
   m_CullTransparentMesh: 1
+--- !u!114 &1812970407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812970403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1870331750}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1814769095
 GameObject:
   m_ObjectHideFlags: 0
@@ -13748,7 +14856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1814769096
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13782,6 +14890,7 @@ GameObject:
   - component: {fileID: 1814770086}
   - component: {fileID: 1814770088}
   - component: {fileID: 1814770087}
+  - component: {fileID: 1814770089}
   m_Layer: 5
   m_Name: Card05
   m_TagString: Untagged
@@ -13847,6 +14956,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814770085}
   m_CullTransparentMesh: 1
+--- !u!114 &1814770089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814770085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 37121648}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1822615443
 GameObject:
   m_ObjectHideFlags: 0
@@ -13862,7 +15000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1822615444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14134,7 +15272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1849465215
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14252,7 +15390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1856349596
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14286,6 +15424,7 @@ GameObject:
   - component: {fileID: 1857349969}
   - component: {fileID: 1857349971}
   - component: {fileID: 1857349970}
+  - component: {fileID: 1857349972}
   m_Layer: 5
   m_Name: Card09
   m_TagString: Untagged
@@ -14351,6 +15490,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857349968}
   m_CullTransparentMesh: 1
+--- !u!114 &1857349972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857349968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1236468646}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1865974713
 GameObject:
   m_ObjectHideFlags: 0
@@ -14526,7 +15694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1870331751
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15062,7 +16230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7d0b9d559a98e43889fbc6acf854fb53, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15091,6 +16259,7 @@ GameObject:
   - component: {fileID: 1950001395}
   - component: {fileID: 1950001397}
   - component: {fileID: 1950001396}
+  - component: {fileID: 1950001398}
   m_Layer: 5
   m_Name: Card39
   m_TagString: Untagged
@@ -15156,6 +16325,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950001394}
   m_CullTransparentMesh: 1
+--- !u!114 &1950001398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950001394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1822615443}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1957962466
 GameObject:
   m_ObjectHideFlags: 0
@@ -15247,7 +16445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1963109020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15448,7 +16646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2068478234
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15647,7 +16845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2071915789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15838,7 +17036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2081848035
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15876,7 +17074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2083987083
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16070,6 +17268,7 @@ GameObject:
   - component: {fileID: 2096708817}
   - component: {fileID: 2096708819}
   - component: {fileID: 2096708818}
+  - component: {fileID: 2096708820}
   m_Layer: 5
   m_Name: Card27
   m_TagString: Untagged
@@ -16135,6 +17334,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096708816}
   m_CullTransparentMesh: 1
+--- !u!114 &2096708820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096708816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1788917458}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2099790020
 GameObject:
   m_ObjectHideFlags: 0
@@ -16146,6 +17374,7 @@ GameObject:
   - component: {fileID: 2099790021}
   - component: {fileID: 2099790023}
   - component: {fileID: 2099790022}
+  - component: {fileID: 2099790024}
   m_Layer: 5
   m_Name: Card34
   m_TagString: Untagged
@@ -16211,6 +17440,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099790020}
   m_CullTransparentMesh: 1
+--- !u!114 &2099790024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099790020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1787453722}
+          m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+          m_MethodName: OpenDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1679049402}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2103245565
 GameObject:
   m_ObjectHideFlags: 0
@@ -16422,7 +17680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e079358c0c98f4297b9958c2d291639d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16537,7 +17795,7 @@ RectTransform:
   - {fileID: 459402705}
   - {fileID: 2068478234}
   - {fileID: 831939379}
-  - {fileID: 810181396}
+  - {fileID: 1787453721}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
